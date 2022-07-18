@@ -7,6 +7,7 @@ body {
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 a {
@@ -14,9 +15,19 @@ a {
     color: #E5E7EB;
 }
 
+p {
+    margin: 0;
+}
+
 header {
     background-color: #1F2937;
-    height: 400px;
+    height: 550px;
+}
+
+img {
+    width: 500px;
+    height: 240px;
+    margin-left: 45px;
 }
 
 .header-top {
@@ -26,7 +37,6 @@ header {
 }
 
 .title-header {
-    font-weight: 600;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -38,7 +48,35 @@ header {
 }
 
 .header-main {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content-header {
+    width: 490px;
+    height: 250px;
+}
+
+.title-content-header {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.content-header p {
+    width: 450px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
 }
