@@ -101,6 +101,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
  }
 
  .card {
@@ -120,4 +121,30 @@ button {
 
   .card h2 {
     text-align: center;
+  }
+
+  /* Main-mid */
+
+  .main-mid {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: #E5E7EB;
+    margin-bottom: 50px;
+  }
+
+  .text-main-mid {
+    width: 800px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+  }
+
+  .main-mid strong {
+    margin-right: 380px;
+    align-self: flex-end;
+    font-size: 25px;
   }
