@@ -30,6 +30,8 @@ img {
     margin-left: 45px;
 }
 
+/* header-top */
+
 .header-top {
     display: flex;
     justify-content: space-around;
@@ -47,6 +49,8 @@ img {
     display: flex;
     gap: 20px;
 }
+
+/* header-main */
 
 .header-main {
     margin-top: 100px;
@@ -186,6 +190,8 @@ button {
     height: 35px;
     width: 134px;
 }
+
+/* footer */
 
 footer {
     height: 80px;
