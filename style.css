@@ -84,4 +84,40 @@ button {
 
  /* Main */ 
 
- 
+ main {
+    height: 1200px;
+ }
+
+ .title-main-top {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-top: 50px;
+    margin-bottom: 40px;
+ }
+
+ .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .card {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 60px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+ }
+
+ .card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+
+  .card h2 {
+    text-align: center;
+  }
