@@ -85,7 +85,7 @@ button {
  /* Main-top */ 
 
  main {
-    height: 1200px;
+    height: 1210px;
  }
 
  .title-main-top {
@@ -185,4 +185,13 @@ button {
     background-color: #3882F6;
     height: 35px;
     width: 134px;
+}
+
+footer {
+    height: 80px;
+    color: #fff;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
