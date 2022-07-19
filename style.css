@@ -55,18 +55,18 @@ img {
     align-items: center;
 }
 
-.content-header {
+.content-header-main {
     width: 490px;
     height: 250px;
 }
 
-.title-content-header {
+.title-content-header-main {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-.content-header p {
+.content-header-main p {
     width: 450px;
     margin-bottom: 15px;
     font-size: 18px;
