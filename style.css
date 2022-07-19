@@ -82,7 +82,7 @@ button {
     background-color: #3882F6;
 }
 
- /* Main */ 
+ /* Main-top */ 
 
  main {
     height: 1200px;
@@ -132,7 +132,7 @@ button {
     flex-direction: column;
     height: 400px;
     background-color: #E5E7EB;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
   }
 
   .text-main-mid {
@@ -148,3 +148,41 @@ button {
     align-self: flex-end;
     font-size: 25px;
   }
+
+ /* Main-bottom */
+
+ .main-bottom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+ }
+
+.container-main-bottom {
+    display: flex;
+    gap: 150px;
+    padding: 55px;
+    width: 945px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 6px;
+}
+
+.container-main-bottom p {
+    color: #fff;
+    font-weight: lighter;
+}
+
+.container-main-bottom strong {
+    font-size: 18px;
+}
+
+.container-main-bottom button {
+    font-weight: 600;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    height: 35px;
+    width: 134px;
+}
